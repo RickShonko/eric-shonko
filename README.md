@@ -6,7 +6,7 @@ Built entirely with **vanilla HTML and CSS**, it reflects both my skills and cre
 
 ---
  🚀 Live Demo
-🔗 View Website:
+🔗 View Website:https://rickshonko.github.io/eric-shonko/
 
 📌 Table of Contents
 - [Overview]
@@ -49,7 +49,7 @@ This portfolio website includes the following sections:
 
 
 🚀 Live Demo
-Here is the website link:
+Here is the website link:https://rickshonko.github.io/eric-shonko/
 
 ---
 

@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta and title section -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Eric Shonko</title>
+
+    <!-- Link to external CSS stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <!-- Logo/Brand -->
+        <a href="#" class="logo">Portfolio</a>
+
+        <!-- Navigation links -->
+        <ul>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Animated Background Bars -->
+    <div class="bars-animation">
+        <div class="bar" style="--i:6;"></div>
+        <div class="bar" style="--i:5;"></div>
+        <div class="bar" style="--i:4;"></div>
+        <div class="bar" style="--i:3;"></div>
+        <div class="bar" style="--i:2;"></div>
+        <div class="bar" style="--i:1;"></div>
+    </div>
+
+    <!-- Hero/Home Section -->
+    <section class="home">
+        <div class="home-info">
+            <h1>Eric Shonko</h1>
+            
+            <!-- Rotating Titles with Animation -->
+            <h2>I'm a 
+                <span style="--i:4;" data-text="Frontend Developer">Frontend Developer</span>
+                <span style="--i:3;" data-text="Programmer">Programmer</span>
+                <span style="--i:2;" data-text="Tutor">Tutor</span>
+                <span style="--i:1;" data-text="Designer">Designer</span>
+            </h2>
+
+            <!-- Short bio -->
+            <p>Passionate developer and programmer with a strong design sense and a love for teaching. 
+                I build efficient systems, craft clean interfaces, and empower others through tutoring.
+                Always learning, always creating, always driven to improve tech and people.
+            </p>
+
+            <!-- CV and Contact Buttons -->
+            <div class="btn-sci">
+                <a href="https://drive.google.com/uc?export=download&id=1higoOOlAFcSZyNyJyfZ2Uw6FIqYIO2PC" download class="btn">Download CV</a>
+                <div class="sci">
+                    <a href="#contact" class="btn">Let's Connect</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Profile Image -->
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="images/eric.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <h2>Technical Expertise</h2>
+
+        <!-- Grid of Skill Cards -->
+        <div class="skills-grid">
+            <div class="skill-card">
+                <img src="images/code.svg" alt="code" width="36">
+                <h3>Frontend Development</h3>
+                <p>React, Vue, HTML5, CSS3, JavaScript</p>
+            </div>
+
+            <div class="skill-card">
+                <img src="images/server.svg" alt="server" width="36">
+                <h3>Backend Development</h3>
+                <p>Node.js, Python, MongoDB, PostgreSQL</p>
+            </div>
+
+            <div class="skill-card">
+                <img src="images/brush.svg" alt="brush" width="36">
+                <h3>Graphics Design</h3>
+                <p>Adobe Photoshop, Illustrator, Canva</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-content">
+            <!-- Personal Bio -->
+            <div class="about-text">
+                <p>I'm a passionate full-stack developer with 4+ 
+                    years of experience creating dynamic web
+                    applications. My journey began when I wrote my first
+                    "Hello World!" in python at 15, and I've been hooked ever
+                    since.
+                </p>
+                <p>I specialize in modern JavaScript frameworks and
+                    have a keen eye for design. My approach combines
+                    technical expertise with creative problem-solving to 
+                    deliver exceptional user experiences.
+                </p>
+                <p>When I'm not coding, you can find me contributing 
+                    to open-source projects, attending tech meetups, or
+                    exploring the latest in VR development.
+                </p>
+                <p> I also assist students with different government services(HELB, KUCCPS etc) 
+                    through my whatsapp group.
+                </p>
+            </div>
+
+            <!-- Skill Progress Bars -->
+            <div class="skills">
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>Python</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>HTML</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>Node.Js</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 70%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>Django</span>
+                        <span>60%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 60%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>Graphics Design</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h2 class="section-title">My Projects</h2>
+
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <img src="images/app.png" alt="project 1" height="200px" class="project-img">
+                <div class="project-info">
+                    <h3 class="project-title">Service Tracker</h3>
+                    <p class="project-description">A simple offline desktop app that helps me track the different 
+                        online services (HELB, KUCCPS) that I offer to students.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">SQLite</span>
+                        <span class="tech-tag">Tkinter</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://drive.google.com/file/d/143-Di1zcZFmkEszolkfWlUlMm4jPjkQm/view?usp=sharing" class="project-link"><img src="images/demo.svg" alt="live demo" width="18">Live Demo</a>
+                        <a href="https://github.com/RickShonko/Clients-Tracker" target="_blank" class="project-link"><img src="images/github.svg" alt="github" width="18">Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+                <img src="images/calc.png" alt="Project 2" height="200px" class="project-img">
+                <div class="project-info">
+                    <h3 class="project-title">Simple Calculator</h3>
+                    <p class="project-description">A simple GUI calculator I built with Python 
+                        when I was a beginner.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Tkinter</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><img src="images/demo.svg" alt="live demo" width="18">Live Demo</a>
+                        <a href="https://github.com/RickShonko/Calculator" class="project-link"><img src="images/github.svg" alt="github" width="18">Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card">
+                <img src="images/wiki.png" alt="Project 3" height="200px" class="project-img">
+                <div class="project-info">
+                    <h3 class="project-title">Wikipedia Encyclopedia</h3>
+                    <p class="project-description">A Wikipedia-like online encyclopedia that 
+                        helped me understand the basics of Django in Python.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Django</span>
+                        <span class="tech-tag">HTML</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://youtu.be/dG0fvsl-V2Y" target="_blank" class="project-link"><img src="images/demo.svg" alt="live demo" width="18">Live Demo</a>
+                        <a href="#" class="project-link"><img src="images/github.svg" alt="github" width="18">Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        
+        <!-- Contact Form -->
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" id="name" class="form-input" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" id="email" class="form-input" required>
+            </div>
+
+            <div class="form-group">
+                <label for="subject" class="form-label">Subject</label>
+                <input type="text" id="subject" class="form-input" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message" class="form-label">Message</label>
+                <textarea id="message" class="form-textarea" required></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <!-- Social Media Links -->
+        <div class="social-links">
+            <a href="https://github.com/RickShonko" class="social-link" target="_blank">
+                <img src="images/github.svg" alt="github" width="32">
+            </a>
+            <a href="https://www.linkedin.com/in/eric-shonko-467776373/" class="social-link" target="_blank">
+                <img src="images/linkedin.svg" alt="linkedin" width="32">
+            </a>
+            <a href="https://www.tiktok.com/@tech.by_rick" class="social-link" target="_blank">
+                <img src="images/tiktok.svg" alt="tiktok" width="32">
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61575185431418" class="social-link" target="_blank">
+                <img src="images/facebook.svg" alt="facebook" width="32">
+            </a>
+        </div>
+
+        <!-- Copyright -->
+        <p class="copyright">© 2025 Eric Shonko. All rights reserved.</p>
+    </footer>
+</body>
+</html>

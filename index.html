@@ -302,5 +302,34 @@
         <!-- Copyright -->
         <p class="copyright">© 2025 Eric Shonko. All rights reserved.</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script>
+  (function(){
+    emailjs.init("J5PPmDw_Y18JqZeEP");
+  })();
+</script>
+<script>
+const form = document.querySelector('.contact-form');
+
+form.addEventListener('submit', function(e) {
+    e.preventDefault(); // Stop page reload
+
+    emailjs.send('service_xbcrgd6', 'template_eelwc8p', {
+        name: document.getElementById('name').value,
+        email: document.getElementById('email').value,
+        subject: document.getElementById('subject').value,
+        message: document.getElementById('message').value
+    })
+    .then(function(response) {
+        alert('Message sent successfully!');
+        form.reset(); // Clear the form
+    }, function(error) {
+        alert('Oops! Something went wrong. ' + JSON.stringify(error));
+    });
+});
+</script>
+
 </body>
+
+
 </html>

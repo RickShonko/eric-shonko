@@ -56,7 +56,7 @@ Here is the website link:https://rickshonko.github.io/eric-shonko/
 
 🧠 Credits
 This project was completed as part of the PLP Academy Hackathon (July–August 2025) 
-with guidance from the PLP Deskie.
+with collaboration from the PLP Deskie.
 ---
 📬 Contact
 Feel free to reach out via the Contact Form on my site. Let's connect!

@@ -684,7 +684,8 @@ footer {
 .story-hero-content p,
 .story-split p,
 .timeline-item p,
-.certificate-content p {
+.certificate-content p,
+.expertise-card p {
     color: #ccc;
     line-height: 1.7;
 }
@@ -764,7 +765,9 @@ footer {
 
 .certificate-content h3,
 .timeline-item h3,
-.story-split h2 {
+.story-split h2,
+.expertise-card h3,
+.story-cta h2 {
     color: #fff;
     margin: 0.35rem 0 0.75rem;
 }
@@ -817,6 +820,32 @@ footer {
     border-radius: 50%;
     background: #7cf03d;
     box-shadow: 0 0 18px rgba(124, 240, 61, 0.75);
+}
+
+.expertise-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.4rem;
+}
+
+.expertise-card {
+    padding: 1.5rem;
+    background: #090909;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+}
+
+.story-cta {
+    padding: 5rem 5%;
+    text-align: center;
+    background:
+        radial-gradient(circle at 50% 0%, rgba(124, 240, 61, 0.14), transparent 34%),
+        #1f242d;
+}
+
+.story-cta h2 {
+    font-size: clamp(1.8rem, 4vw, 3.2rem);
+    margin-bottom: 1.5rem;
 }
 
 @media (max-width: 900px) {
